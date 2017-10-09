@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46B114E42FFFAEBF69972990 /* libPods-Tetris.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74F556A902E803CAAC940B86 /* libPods-Tetris.a */; };
 		79B734591F8B58B8009E92C6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B734581F8B58B8009E92C6 /* main.m */; };
 		79B7345C1F8B58B8009E92C6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B7345B1F8B58B8009E92C6 /* AppDelegate.m */; };
 		79B7345F1F8B58B8009E92C6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B7345E1F8B58B8009E92C6 /* ViewController.m */; };
@@ -15,6 +16,10 @@
 		79B734671F8B58B9009E92C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79B734651F8B58B9009E92C6 /* LaunchScreen.storyboard */; };
 		79B734721F8B58B9009E92C6 /* TetrisTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B734711F8B58B9009E92C6 /* TetrisTests.m */; };
 		79B7347D1F8B58B9009E92C6 /* TetrisUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B7347C1F8B58B9009E92C6 /* TetrisUITests.m */; };
+		79B7348F1F8B5BFD009E92C6 /* ElementView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B7348C1F8B5BFD009E92C6 /* ElementView.m */; };
+		79B734901F8B5BFD009E92C6 /* RussiaView.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B7348E1F8B5BFD009E92C6 /* RussiaView.m */; };
+		79B734931F8B5C82009E92C6 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = 79B734921F8B5C82009E92C6 /* UIView+Frame.m */; };
+		79B734951F8B5D56009E92C6 /* ShangHaiTan.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 79B734941F8B5D56009E92C6 /* ShangHaiTan.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6674951B0B17CF50EDE9E28D /* Pods-Tetris.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tetris.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tetris/Pods-Tetris.release.xcconfig"; sourceTree = "<group>"; };
+		74F556A902E803CAAC940B86 /* libPods-Tetris.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tetris.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B734541F8B58B8009E92C6 /* Tetris.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tetris.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B734581F8B58B8009E92C6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		79B7345A1F8B58B8009E92C6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +58,15 @@
 		79B734781F8B58B9009E92C6 /* TetrisUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TetrisUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		79B7347C1F8B58B9009E92C6 /* TetrisUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TetrisUITests.m; sourceTree = "<group>"; };
 		79B7347E1F8B58B9009E92C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		79B7348A1F8B598F009E92C6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		79B7348B1F8B5BFD009E92C6 /* ElementView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ElementView.h; sourceTree = "<group>"; };
+		79B7348C1F8B5BFD009E92C6 /* ElementView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ElementView.m; sourceTree = "<group>"; };
+		79B7348D1F8B5BFD009E92C6 /* RussiaView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RussiaView.h; sourceTree = "<group>"; };
+		79B7348E1F8B5BFD009E92C6 /* RussiaView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RussiaView.m; sourceTree = "<group>"; };
+		79B734911F8B5C82009E92C6 /* UIView+Frame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Frame.h"; sourceTree = "<group>"; };
+		79B734921F8B5C82009E92C6 /* UIView+Frame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Frame.m"; sourceTree = "<group>"; };
+		79B734941F8B5D56009E92C6 /* ShangHaiTan.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ShangHaiTan.mp3; sourceTree = "<group>"; };
+		93006801172AB80D08F87968 /* Pods-Tetris.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tetris.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tetris/Pods-Tetris.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46B114E42FFFAEBF69972990 /* libPods-Tetris.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +95,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		131099074C8551CDFADE15BD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				93006801172AB80D08F87968 /* Pods-Tetris.debug.xcconfig */,
+				6674951B0B17CF50EDE9E28D /* Pods-Tetris.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		573BD297AA182FA4873676B2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74F556A902E803CAAC940B86 /* libPods-Tetris.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		79B7344B1F8B58B8009E92C6 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +119,8 @@
 				79B734701F8B58B9009E92C6 /* TetrisTests */,
 				79B7347B1F8B58B9009E92C6 /* TetrisUITests */,
 				79B734551F8B58B8009E92C6 /* Products */,
+				131099074C8551CDFADE15BD /* Pods */,
+				573BD297AA182FA4873676B2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +141,14 @@
 				79B7345B1F8B58B8009E92C6 /* AppDelegate.m */,
 				79B7345D1F8B58B8009E92C6 /* ViewController.h */,
 				79B7345E1F8B58B8009E92C6 /* ViewController.m */,
+				79B7348B1F8B5BFD009E92C6 /* ElementView.h */,
+				79B7348C1F8B5BFD009E92C6 /* ElementView.m */,
+				79B7348D1F8B5BFD009E92C6 /* RussiaView.h */,
+				79B7348E1F8B5BFD009E92C6 /* RussiaView.m */,
+				79B734911F8B5C82009E92C6 /* UIView+Frame.h */,
+				79B734921F8B5C82009E92C6 /* UIView+Frame.m */,
+				79B7348A1F8B598F009E92C6 /* PrefixHeader.pch */,
+				79B734941F8B5D56009E92C6 /* ShangHaiTan.mp3 */,
 				79B734601F8B58B8009E92C6 /* Main.storyboard */,
 				79B734631F8B58B9009E92C6 /* Assets.xcassets */,
 				79B734651F8B58B9009E92C6 /* LaunchScreen.storyboard */,
@@ -147,9 +191,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 79B734811F8B58B9009E92C6 /* Build configuration list for PBXNativeTarget "Tetris" */;
 			buildPhases = (
+				22A9092EE78E223A02189A66 /* [CP] Check Pods Manifest.lock */,
 				79B734501F8B58B8009E92C6 /* Sources */,
 				79B734511F8B58B8009E92C6 /* Frameworks */,
 				79B734521F8B58B8009E92C6 /* Resources */,
+				AEBA74BD809FDDBD37F59992 /* [CP] Embed Pods Frameworks */,
+				349F11D655D96055B1071BC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,6 +254,7 @@
 				TargetAttributes = {
 					79B734531F8B58B8009E92C6 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = U9MTTAW35C;
 						ProvisioningStyle = Automatic;
 					};
 					79B7346C1F8B58B9009E92C6 = {
@@ -249,6 +297,7 @@
 				79B734671F8B58B9009E92C6 /* LaunchScreen.storyboard in Resources */,
 				79B734641F8B58B9009E92C6 /* Assets.xcassets in Resources */,
 				79B734621F8B58B8009E92C6 /* Main.storyboard in Resources */,
+				79B734951F8B5D56009E92C6 /* ShangHaiTan.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,12 +317,63 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		22A9092EE78E223A02189A66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		349F11D655D96055B1071BC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tetris/Pods-Tetris-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEBA74BD809FDDBD37F59992 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tetris/Pods-Tetris-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		79B734501F8B58B8009E92C6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79B734931F8B5C82009E92C6 /* UIView+Frame.m in Sources */,
 				79B7345F1F8B58B8009E92C6 /* ViewController.m in Sources */,
+				79B7348F1F8B5BFD009E92C6 /* ElementView.m in Sources */,
+				79B734901F8B5BFD009E92C6 /* RussiaView.m in Sources */,
 				79B7345C1F8B58B8009E92C6 /* AppDelegate.m in Sources */,
 				79B734591F8B58B8009E92C6 /* main.m in Sources */,
 			);
@@ -424,8 +524,11 @@
 		};
 		79B734821F8B58B9009E92C6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93006801172AB80D08F87968 /* Pods-Tetris.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U9MTTAW35C;
+				GCC_PREFIX_HEADER = /Users/zhangxinxin/Desktop/Tetris/Tetris/PrefixHeader.pch;
 				INFOPLIST_FILE = Tetris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zxx.Tetris;
@@ -435,8 +538,11 @@
 		};
 		79B734831F8B58B9009E92C6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6674951B0B17CF50EDE9E28D /* Pods-Tetris.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = U9MTTAW35C;
+				GCC_PREFIX_HEADER = /Users/zhangxinxin/Desktop/Tetris/Tetris/PrefixHeader.pch;
 				INFOPLIST_FILE = Tetris/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = zxx.Tetris;
@@ -509,6 +615,7 @@
 				79B734831F8B58B9009E92C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79B734841F8B58B9009E92C6 /* Build configuration list for PBXNativeTarget "TetrisTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +624,7 @@
 				79B734861F8B58B9009E92C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		79B734871F8B58B9009E92C6 /* Build configuration list for PBXNativeTarget "TetrisUITests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +633,7 @@
 				79B734891F8B58B9009E92C6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
